@@ -2692,7 +2692,7 @@ a {
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #ee6e73; }
+  border-left: 5px solid #263238; }
 
 /* line 112, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_global.scss */
 i {
@@ -2743,7 +2743,7 @@ video.responsive-video {
     color: #fff; }
   /* line 166, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_global.scss */
   .pagination li.active {
-    background-color: #ee6e73; }
+    background-color: #263238; }
   /* line 168, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_global.scss */
   .pagination li.disabled a {
     cursor: default;
@@ -2909,7 +2909,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #ee6e73; }
+  background-color: #263238; }
   /* line 355, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_global.scss */
   footer.page-footer .footer-copyright {
     overflow: hidden;
@@ -3083,8 +3083,8 @@ td, th {
       border-bottom: none; }
     /* line 551, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_global.scss */
     .collection .collection-item.active {
-      background-color: #26a69a;
-      color: #eafaf9; }
+      background-color: #00b8d4;
+      color: #edfdff; }
       /* line 555, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_global.scss */
       .collection .collection-item.active .secondary-content {
         color: #fff; }
@@ -3092,7 +3092,7 @@ td, th {
   .collection a.collection-item {
     display: block;
     transition: .25s;
-    color: #26a69a; }
+    color: #00b8d4; }
     /* line 565, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_global.scss */
     .collection a.collection-item:not(.active):hover {
       background-color: #ddd; }
@@ -3111,7 +3111,7 @@ td, th {
 /* line 587, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_global.scss */
 .secondary-content {
   float: right;
-  color: #26a69a; }
+  color: #00b8d4; }
 
 /* line 591, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_global.scss */
 .collapsible .collection {
@@ -3134,7 +3134,7 @@ span.badge {
     font-weight: 300;
     font-size: 0.8rem;
     color: #fff;
-    background-color: #26a69a;
+    background-color: #00b8d4;
     border-radius: 2px; }
   /* line 617, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_global.scss */
   span.badge.new:after {
@@ -3169,7 +3169,7 @@ nav ul a span.badge {
   height: 4px;
   display: block;
   width: 100%;
-  background-color: #acece6;
+  background-color: #a1f3ff;
   border-radius: 2px;
   margin: 0.5rem 0 1rem 0;
   overflow: hidden; }
@@ -3179,11 +3179,11 @@ nav ul a span.badge {
     top: 0;
     left: 0;
     bottom: 0;
-    background-color: #26a69a;
+    background-color: #00b8d4;
     transition: width 0.3s linear; }
   /* line 667, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_global.scss */
   .progress .indeterminate {
-    background-color: #26a69a; }
+    background-color: #00b8d4; }
     /* line 669, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_global.scss */
     .progress .indeterminate:before {
       content: '';
@@ -3893,7 +3893,7 @@ input[type=range] + .thumb {
 /* line 1, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_navbar.scss */
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #263238;
   width: 100%;
   height: 56px;
   line-height: 56px; }
@@ -4500,7 +4500,7 @@ small {
     min-width: 80px; }
     /* line 31, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_tabs.scss */
     .tabs .tab a {
-      color: #ee6e73;
+      color: #263238;
       display: block;
       width: 100%;
       height: 100%;
@@ -4509,17 +4509,17 @@ small {
       transition: color 0.28s ease; }
       /* line 39, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_tabs.scss */
       .tabs .tab a:hover {
-        color: #f9c9cb; }
+        color: #4f6875; }
     /* line 44, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_tabs.scss */
     .tabs .tab.disabled a {
-      color: #f9c9cb;
+      color: #4f6875;
       cursor: default; }
   /* line 49, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_tabs.scss */
   .tabs .indicator {
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: #f6b2b5;
+    background-color: #455b66;
     will-change: left, right; }
 
 /* line 1, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_tooltip.scss */
@@ -4630,14 +4630,14 @@ small {
 .btn, .btn-large {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  background-color: #00b8d4;
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
   cursor: pointer; }
   /* line 64, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_buttons.scss */
   .btn:hover, .btn-large:hover {
-    background-color: #2bbbad; }
+    background-color: #00ceee; }
 
 /* line 71, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_buttons.scss */
 .btn-floating {
@@ -4650,7 +4650,7 @@ small {
   height: 37px;
   line-height: 37px;
   padding: 0;
-  background-color: #26a69a;
+  background-color: #00b8d4;
   border-radius: 50%;
   transition: .3s;
   cursor: pointer;
@@ -4665,7 +4665,7 @@ small {
     line-height: 37px; }
   /* line 97, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_buttons.scss */
   .btn-floating:hover {
-    background-color: #26a69a; }
+    background-color: #00b8d4; }
   /* line 102, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_buttons.scss */
   .btn-floating:before {
     border-radius: 0; }
@@ -4792,7 +4792,7 @@ button.btn-floating {
     /* line 37, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_dropdown.scss */
     .dropdown-content li > a, .dropdown-content li > span {
       font-size: 16px;
-      color: #26a69a;
+      color: #00b8d4;
       display: block;
       line-height: 22px;
       padding: 14px 16px; }
@@ -5193,12 +5193,12 @@ button.btn-floating {
 
 /* line 2, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_forms.scss */
 select:focus {
-  outline: 1px solid #c9f3ef; }
+  outline: 1px solid #c5f7ff; }
 
 /* line 6, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_forms.scss */
 button:focus {
   outline: none;
-  background-color: #2ab7a9; }
+  background-color: #00cae8; }
 
 /* line 11, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_forms.scss */
 label {
@@ -5325,8 +5325,8 @@ textarea.materialize-textarea {
   input[type=number]:focus:not([readonly]),
   input[type=search]:focus:not([readonly]),
   textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #26a69a;
-    box-shadow: 0 1px 0 0 #26a69a; }
+    border-bottom: 1px solid #00b8d4;
+    box-shadow: 0 1px 0 0 #00b8d4; }
   /* line 73, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_input-fields.scss */
   input:not([type]):focus:not([readonly]) + label,
   input[type=text]:focus:not([readonly]) + label,
@@ -5341,7 +5341,7 @@ textarea.materialize-textarea {
   input[type=number]:focus:not([readonly]) + label,
   input[type=search]:focus:not([readonly]) + label,
   textarea.materialize-textarea:focus:not([readonly]) + label {
-    color: #26a69a; }
+    color: #00b8d4; }
   /* line 79, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_input-fields.scss */
   input:not([type]).valid,
   input:not([type]):focus.valid,
@@ -5528,7 +5528,7 @@ textarea.materialize-textarea {
     transition: color 0.2s; }
     /* line 162, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_input-fields.scss */
     .input-field .prefix.active {
-      color: #26a69a; }
+      color: #00b8d4; }
   /* line 169, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_input-fields.scss */
   .input-field .prefix ~ input,
   .input-field .prefix ~ textarea,
@@ -5691,12 +5691,12 @@ textarea {
 [type="radio"]:checked + label:after,
 [type="radio"].with-gap:checked + label:before,
 [type="radio"].with-gap:checked + label:after {
-  border: 2px solid #26a69a; }
+  border: 2px solid #00b8d4; }
 
 /* line 72, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_radio-buttons.scss */
 [type="radio"]:checked + label:after,
 [type="radio"].with-gap:checked + label:after {
-  background-color: #26a69a;
+  background-color: #00b8d4;
   z-index: 0; }
 
 /* line 77, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_radio-buttons.scss */
@@ -5821,8 +5821,8 @@ form p:last-child {
   height: 22px;
   border-top: 2px solid transparent;
   border-left: 2px solid transparent;
-  border-right: 2px solid #26a69a;
-  border-bottom: 2px solid #26a69a;
+  border-right: 2px solid #00b8d4;
+  border-bottom: 2px solid #00b8d4;
   transform: rotate(40deg);
   backface-visibility: hidden;
   transform-origin: 100% 100%; }
@@ -5841,7 +5841,7 @@ form p:last-child {
   height: 22px;
   border-top: none;
   border-left: none;
-  border-right: 2px solid #26a69a;
+  border-right: 2px solid #00b8d4;
   border-bottom: none;
   transform: rotate(90deg);
   backface-visibility: hidden;
@@ -5907,8 +5907,8 @@ form p:last-child {
   top: 0;
   width: 20px;
   height: 20px;
-  border: 2px solid #26a69a;
-  background-color: #26a69a;
+  border: 2px solid #00b8d4;
+  background-color: #00b8d4;
   z-index: 0; }
 
 /* line 189, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_checkboxes.scss */
@@ -5920,8 +5920,8 @@ form p:last-child {
 /* line 195, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in.tabbed:checked:focus + label:after {
   border-radius: 2px;
-  background-color: #26a69a;
-  border-color: #26a69a; }
+  background-color: #00b8d4;
+  border-color: #00b8d4; }
 
 /* line 202, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in:disabled:not(:checked) + label:before {
@@ -5963,10 +5963,10 @@ form p:last-child {
   height: 0; }
   /* line 21, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_switches.scss */
   .switch label input[type=checkbox]:checked + .lever {
-    background-color: #84c7c1; }
+    background-color: #6ad9ea; }
     /* line 24, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_switches.scss */
     .switch label input[type=checkbox]:checked + .lever:after {
-      background-color: #26a69a;
+      background-color: #00b8d4;
       left: 24px; }
 
 /* line 31, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_switches.scss */
@@ -5999,7 +5999,7 @@ form p:last-child {
 /* line 61, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_switches.scss */
 input[type=checkbox]:checked:not(:disabled) ~ .lever:active::after,
 input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::after {
-  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(38, 166, 154, 0.1); }
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 184, 212, 0.1); }
 
 /* line 66, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_switches.scss */
 input[type=checkbox]:not(:disabled) ~ .lever:active:after,
@@ -6195,7 +6195,7 @@ input[type=range] + .thumb {
   height: 0;
   width: 0;
   border-radius: 50%;
-  background-color: #26a69a;
+  background-color: #00b8d4;
   top: 10px;
   margin-left: -6px;
   transform-origin: 50% 50%;
@@ -6205,7 +6205,7 @@ input[type=range] + .thumb {
     display: block;
     width: 30px;
     text-align: center;
-    color: #26a69a;
+    color: #00b8d4;
     font-size: 0;
     transform: rotate(45deg); }
   /* line 50, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_range.scss */
@@ -6235,7 +6235,7 @@ input[type=range]::-webkit-slider-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background-color: #26a69a;
+  background-color: #00b8d4;
   transform-origin: 50% 50%;
   margin: -5px 0 0 0;
   transition: .3s; }
@@ -6262,7 +6262,7 @@ input[type=range]::-moz-range-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background: #26a69a;
+  background: #00b8d4;
   margin-top: -5px; }
 
 /* line 113, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_range.scss */
@@ -6297,7 +6297,7 @@ input[type=range]::-ms-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background: #26a69a; }
+  background: #00b8d4; }
 
 /* line 153, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/forms/_range.scss */
 input[type=range]:focus::-ms-fill-lower {
@@ -6402,10 +6402,10 @@ input[type=range]:focus::-ms-fill-upper {
     .side-nav a.btn:hover,
     .side-nav a.btn-large:hover,
     .side-nav a.btn-large:hover {
-      background-color: #2bbbad; }
+      background-color: #00ceee; }
     /* line 64, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_sideNav.scss */
     .side-nav a.btn-floating:hover {
-      background-color: #26a69a; }
+      background-color: #00b8d4; }
   /* line 69, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_sideNav.scss */
   .side-nav li > a > i,
   .side-nav li > a > [class^="mdi-"], .side-nav li > a > [class*="mdi-"],
@@ -6512,7 +6512,7 @@ input[type=range]:focus::-ms-fill-upper {
 /* line 199, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_sideNav.scss */
 .side-nav .collapsible-body li.active,
 .side-nav.fixed .collapsible-body li.active {
-  background-color: #ee6e73; }
+  background-color: #263238; }
   /* line 201, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_sideNav.scss */
   .side-nav .collapsible-body li.active a,
   .side-nav.fixed .collapsible-body li.active a {
@@ -6588,7 +6588,7 @@ input[type=range]:focus::-ms-fill-upper {
   width: 100%;
   height: 100%;
   opacity: 0;
-  border-color: #26a69a; }
+  border-color: #00b8d4; }
 
 /* line 70, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/_preloader.scss */
 .spinner-blue,
@@ -7560,7 +7560,7 @@ input[type=range]:focus::-ms-fill-upper {
 /* line 314, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/date_picker/_default.date.scss */
 .picker__date-display {
   text-align: center;
-  background-color: #26a69a;
+  background-color: #00b8d4;
   color: #fff;
   padding-bottom: 15px;
   font-weight: 300; }
@@ -7570,11 +7570,11 @@ input[type=range]:focus::-ms-fill-upper {
 .picker__nav--next:hover {
   cursor: pointer;
   color: #000000;
-  background: #a1ded8; }
+  background: #90e9f6; }
 
 /* line 329, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/date_picker/_default.date.scss */
 .picker__weekday-display {
-  background-color: #1f897f;
+  background-color: #0099b0;
   padding: 10px;
   font-weight: 200;
   letter-spacing: .5;
@@ -7622,7 +7622,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 /* line 378, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/date_picker/_default.date.scss */
 .picker__day.picker__day--today {
-  color: #26a69a; }
+  color: #00b8d4; }
 
 /* line 382, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/date_picker/_default.date.scss */
 .picker__day.picker__day--today.picker__day--selected {
@@ -7638,13 +7638,13 @@ input[type=range]:focus::-ms-fill-upper {
 .picker--focused .picker__day--selected {
   border-radius: 50%;
   transform: scale(0.9);
-  background-color: #26a69a;
+  background-color: #00b8d4;
   color: #ffffff; }
   /* line 399, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/date_picker/_default.date.scss */
   .picker__day--selected.picker__day--outfocus,
   .picker__day--selected:hover.picker__day--outfocus,
   .picker--focused .picker__day--selected.picker__day--outfocus {
-    background-color: #a1ded8; }
+    background-color: #90e9f6; }
 
 /* line 405, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/date_picker/_default.date.scss */
 .picker__footer {
@@ -7655,7 +7655,7 @@ input[type=range]:focus::-ms-fill-upper {
 .picker__close, .picker__today {
   font-size: 1.1rem;
   padding: 0 1rem;
-  color: #26a69a; }
+  color: #00b8d4; }
 
 /* line 419, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/date_picker/_default.date.scss */
 .picker__nav--prev:before,
@@ -7676,7 +7676,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 /* line 433, C:/Users/Mihran/Documents/Programming/Projects/My Resume/mihranmashhud.github.io/sass/components/date_picker/_default.date.scss */
 button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
-  background-color: #a1ded8; }
+  background-color: #90e9f6; }
 
 /* ==========================================================================
    $BASE-TIME-PICKER
