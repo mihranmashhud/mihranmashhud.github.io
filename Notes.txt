@@ -1,0 +1,12 @@
+New Site must haves
+- less scroll heavy
+- flair
+- new animations
+- custom ui style
+- only one page
+- side menu navigation
+- mobile capable
+- minimal interface
+- quick access (basically less scrolling)
+- readable code
+- be fun
