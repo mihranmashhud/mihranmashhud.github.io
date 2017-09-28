@@ -1,0 +1,20 @@
+{
+  "name": "mihranmashhud.github.io",
+  "version": "2.0.0",
+  "description": "My CV revamped",
+  "main": "js/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihranmashhud/mihranmashhud.github.io.git"
+  },
+  "author": "Mihran Mashhud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mihranmashhud/mihranmashhud.github.io/issues"
+  },
+  "homepage": "https://github.com/mihranmashhud/mihranmashhud.github.io#readme"
+}
